@@ -1,0 +1,113 @@
+.body {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+  }
+
+  
+  
+  .register_form {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 20px!important;
+    border: 2px solid rgb(47, 94, 141);
+    border-radius: 10px;
+    border-bottom: none;
+  }
+
+  .register_label{
+    margin: 10px !important;
+    color: rgb(47, 94, 141);
+  }
+
+  .register_button {
+    background-color: rgb(47, 94, 141);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #f8f8f8 inset;
+    -webkit-text-fill-color: rgb(47, 94, 141);
+  }
+
+  h1 {
+    color: rgb(47, 94, 141);
+    padding-bottom: 20px;
+  }
+
+  .register_input[type="text"],  .register_input[type="password"] {
+    width: 100%!important;
+    margin: 5px!important;
+    padding: 5px!important;
+    color: rgb(47, 94, 141);
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+.register_input[type="text"]:focus,
+.register_input[type="password"]:focus {
+  border-color: rgb(47, 94, 141) !important;
+  outline: none;
+  box-shadow: none;
+}
+
+  .menu{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    padding: 3!important;
+    border: 1px solid black!important;
+    border-radius: px!important;
+    margin: 5px!important;
+    width: 100%!important;
+    color: rgb(47, 94, 141);
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  width: 80%;
+  margin: 0% 10%;
+  /* border: 2px solid rgb(47, 94, 141);
+  border-radius: 10px;
+  border-bottom: none; */
+}
+
+.register-form {
+  margin-bottom: 20px;
+}
+
+.register-reasoning {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 20px !important;
+  background-image: url("../../images/registration_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: rgb(47, 94, 141);
+  /* border: 2px solid rgb(47, 94, 141);
+  border-radius: 10px;
+  border-bottom: none; */
+}

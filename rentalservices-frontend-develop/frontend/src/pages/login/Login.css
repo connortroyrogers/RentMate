@@ -1,0 +1,68 @@
+.body {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+   
+  }
+
+  
+  
+  .login_form {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 80%;
+    margin: 30px 10%;
+    padding: 20px !important;
+    border: 2px solid rgb(47, 94, 141) !important;
+    border-radius: 10px !important;
+    border-bottom: none !important;
+    border-bottom: none !important;
+  }
+
+  .login_label{
+    margin: 10px!important;
+  }
+
+  .login_button {
+    background-color: rgb(47, 94, 141);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: rgb(47, 94, 141) !important;
+  }
+
+  .login_input[type="text"], .login_input[type="password"] {
+    width: 300px !important;
+    margin: 5px !important;
+    padding: 5px !important;
+    color: rgb(47, 94, 141);
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+.login_input[type="text"]:focus, .login_input[type="password"]:focus {
+  border-color: rgb(47, 94, 141) !important;
+  outline: none;
+  box-shadow: none;
+}
+
+  .links{
+    color: rgb(47, 94, 141) !important;
+    font-weight: 400 !important;
+
+  }

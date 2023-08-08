@@ -1,0 +1,47 @@
+.body {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center! important;
+    height: 100vh! important;
+   
+  }
+
+  
+  
+  .reset_form {
+    display: flex! important;
+    flex-direction: column! important;
+    align-items: center! important;
+    padding: 20px! important;
+    border-radius: 5px! important;
+    border-bottom: none! important;
+  }
+
+
+  .reset_label{
+    margin: 10px! important;
+    padding: 20px! important;
+    font-weight: 500! important;
+    align-items: center! important;
+  }
+
+  .reset_button {
+    margin: 10px! important;
+    padding: 10px! important;
+    border: none! important;
+    border-radius: 5px! important;
+    background: rgb(47, 94, 141)! important;
+    color: white! important;
+    font-size: 1.2rem! important;
+    font-weight: 500! important;
+  }
+
+  h1 {
+    color: rgb(47, 94, 141);
+  }
+
+  .reset_input[type="text"], .reset_input[type="password"] {
+    width: 300px! important;
+    margin: 15px! important;
+    padding: 5px! important;
+  }

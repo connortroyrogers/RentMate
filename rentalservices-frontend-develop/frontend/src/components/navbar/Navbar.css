@@ -1,0 +1,114 @@
+*, 
+*::after,
+*::before {
+    /* margin: 0 0px !important; */
+    box-sizing: border-box !important;
+  }
+
+:not(.chat-window-container) {
+    margin: 0;
+}
+html {
+    font-size: 60% !important;
+}
+
+body {
+    font-size: 1.5rem !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(242, 244, 246) !important;
+    font-weight: 400 !important;
+    font-size: 1.7rem !important;
+
+    
+}
+
+.nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0 6rem !important;
+    height: 8vh !important;
+    background: rgb(47, 94, 141) !important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) !important;
+}
+
+.nav_logo {
+    font-size: 2.5rem !important;
+    font-weight: 400 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav_menu {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important; 
+    gap: 4rem !important;
+}
+
+.nav_toggler {
+    display: none !important;
+}
+
+.nav_toggler div {
+    width: 2.5rem !important;
+    height: 0.2rem !important;
+    margin: 0.4rem !important;
+    background: rgb(204, 204, 204) !important;
+    transition: 0.3s ease-in !important;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_toggler {
+        display: block !important;
+        cursor: pointer !important;
+    }
+
+    .nav_menu {
+        position: fixed !important;
+        top: 8vh !important;
+        right: 0 !important;
+        height: 15vh !important;
+        width: 30vw !important;
+        background: rgb(47, 94, 141) !important;
+        flex-direction: column !important;
+        transform: translateX(100%) !important;
+        transition: 0.5s ease-in !important;
+        gap: 0rem !important;
+    }
+}
+
+/* Active Class */
+.nav_active {
+    transform: translateX(0%) !important;
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px)!important;
+}
+
+.toggle .line2 {
+    opacity: 0!important;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px)! important;
+}
+
+.dropdown-item-custom {
+    color:rgb(47, 94, 141) !important;
+
+  }
+
+.dropdown-item-custom:hover {
+    background-color: rgb(47, 94, 141) !important;
+    color: rgb(251, 248, 248) !important;
+}

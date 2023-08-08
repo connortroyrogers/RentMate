@@ -1,0 +1,90 @@
+  .profile_header{
+    display: flex!important;
+    flex-direction: column!important;
+    font-size: 2.0rem!important;
+    font-weight: 600!important;
+    text-decoration: underline!important;
+    padding-bottom: 15px!important;
+
+  }
+  .profile_details{
+    display: flex!important;
+    flex-direction: column!important;
+    margin: 0 100px!important;
+    padding: 5px!important;
+    font-size: 1.5rem!important;
+    text-align: center!important;
+  }
+
+
+  .h1 {
+    color: rgb(47, 94, 141)!important;
+   text-align: center!important;
+   padding: 10px!important;
+    font-size: 3rem!important;
+    margin: 0px 200px!important;
+  } 
+
+.profile{
+  display: flex!important;
+  flex-direction: column!important;
+  align-items: center!important;
+  padding: 20px!important;
+  border: 1px solid black!important;
+  border-radius: 5px!important;
+  border-bottom: none!important;
+  text-align: left!important;
+  height:100vh;
+}
+.save_button {
+  border: none!important;
+  border-radius: 5px!important;
+  background: rgb(47, 94, 141)!important;
+  color: rgb(47, 94, 141)!important;
+  font-size: 2.0rem!important;
+  font-weight: 500!important;
+  width: 150px!important;
+  height: 40px!important;
+  background: transparent!important;
+}
+.delete_button {
+  border: none!important;
+  border-radius: 5px!important;
+  background: transparent!important;
+  color: rgb(184, 18, 18)!important;
+  font-size: 2.0rem!important;
+  font-weight: 500!important;
+  width: 150x!important;
+  height: 40px!important;
+}
+.container-profile {
+  display: grid!important;
+  grid-template-columns: .5fr 1fr!important;
+  grid-template-rows: repeat(3, auto)!important;
+  grid-gap: 5px!important;
+}
+
+.container-profile p {
+  margin-right: 0px!important;
+  text-align: left!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.container-profile-input {
+  display: grid!important;
+  grid-template-columns: .5fr 1fr!important;
+  grid-template-rows: repeat(3, auto)!important;
+  grid-gap: 5px!important;
+  width: 100%!important;
+  height: 30px !important;
+  padding: 5px!important;
+  margin: 5px 5px!important;
+}
+
+.background{
+    background-image: url("../../images/profile-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,25 @@
+.container-post {
+  display: grid!important;
+  grid-template-columns: .5fr 1fr!important;
+  grid-template-rows: repeat(3, auto)!important;
+  grid-gap: 5px!important;
+}
+
+.container-post p {
+  margin-right: 0px!important;
+  text-align: left!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.post-button{
+    padding: 10px!important;
+    border: none!important;
+    border-radius: 5px!important;
+    background: rgb(47, 94, 141)!important;
+    color: white!important;
+    font-size: 1.3rem!important;
+    font-weight: 500!important;
+    width: 105px!important;
+    height: 40px!important;
+}

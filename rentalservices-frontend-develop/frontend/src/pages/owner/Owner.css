@@ -1,0 +1,67 @@
+.sub-title{
+    padding: 10px 10px;
+    color:rgb(47, 94, 141)
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin-left:1%;
+ }
+
+ .image-card {
+    width: 246px;
+    height: 100px;
+    margin-left:1%;
+ }
+ 
+ .label{
+    padding-left: 1%;
+ }
+
+ .card{
+    width: 250px;
+    height: 210px;
+    margin-left:1%;
+    margin-right: 1%;
+ }
+
+ .card-title{
+    color: rgb(47, 94, 141);
+    font-size: 15px;
+ }
+
+.card-text{
+     color: rgb(47, 94, 141);
+        font-size: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .sub-title {
+   margin-top: 0;
+   cursor: pointer;
+   
+  }
+
+  .btn-primary {
+    position: absolute; 
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    color: rgb(47, 94, 141); /* change color as needed */
+    text-decoration: underline; /* add underline to text */
+    cursor: pointer;
+   
+  } 
+
+.btn-primary:hover {
+   background-color: rgb(47, 94, 141); /* change background color on hover */
+}
